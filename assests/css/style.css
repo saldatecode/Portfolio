@@ -8,6 +8,8 @@
 
 body{
 
+    background-color: rgb(181, 239, 239);
+
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -55,9 +57,27 @@ header nav ul li{
         font-size: 30px;
 
         padding: 7px 15px;
+
+        text-decoration: none;
 }
 
 h2{
-    padding: 0 500px 0;
+    top: 0;
     color: rgb(206, 105, 242);
+    font-size: 40px;
+    text-align: center;
+    background-color: aqua;
+    margin: 0 0 0 400px;
+    text-align: justify;
+    display: inline;
     }
+
+section p{
+    padding: 0px 400px 0 400px;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
