@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding:0 ;
+    font-family:'Noto Sans JP', sans-serif ;
+}
+
+header{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    flex-wrap: wrap;
+    display: flex;
+    text-shadow: 0 0 10px rgba(235, 230, 230, 0.5);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    float: left;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+body{
+    color: black;
+}
+
