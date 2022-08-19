@@ -6,37 +6,76 @@
     font-family:'Noto Sans JP', sans-serif ;
 }
 
-header{
-    color: white;
-    background-color: black;
-    display: inline-block;
-    flex-wrap: wrap;
-    display: flex;
-    text-shadow: 0 0 10px rgba(235, 230, 230, 0.5);
-    margin: 0;
-    padding: 0;
-}
 
-h1{
-
-}
-nav ul li{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-li{
-    display: inline;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
     float: left;
-}
-
-a{
+  }
+  
+  li a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
-}
-body{
-    color: black;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(14, 120, 116);
+  }
+
+  /* Add a gray right border to all list items, except the last item (last-child) */
+  
+  li:last-child {
+    border-right: none
+  }
+  
+  li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(14, 119, 158);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgb(14, 119, 158);}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ 
+  
